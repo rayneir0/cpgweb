@@ -65,19 +65,23 @@ section{
 div{
     box-sizing: border-box;
 }
-
+/* Maybe find a way for the mobile users to have a vertical nav-bar later*/
 .nav-bar {
+    display: flex;
     width: 100%; 
     height: 80px;
     background-color: rgb(43, 43, 47); 
+}
+.nav-bar a{
+    position: relative;
 }
 .company-logo {
     display: inline-block;
     vertical-align: top;
     width: 50px;
     height: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin-top: 15px;    
 }
 
